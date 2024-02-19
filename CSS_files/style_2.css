@@ -1,0 +1,61 @@
+.order-form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #B7C9F2;
+    border-radius: 10px;
+}
+
+.order-form h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.order-form form {
+    text-align: center;
+}
+
+.order-form label {
+    display: block;
+    margin-bottom: 5px;
+    color: #FFF;
+}
+
+.order-form input[type="text"],
+.order-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+.order-form input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+.confirm-button {
+    background-color: #FB88B4;
+    color: #FFF;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.confirm-button:hover {
+    background-color: #FF629A;
+}
+
+footer{
+    background-color: #f8f9fa;
+    padding:20px 0;
+    text-align: center;
+}
+
+footer p{
+    color: #495057;
+    font-size: 14px;
+}
